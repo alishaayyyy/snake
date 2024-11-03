@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e8f0f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  
+  color: #4CAF50;
+}
+
+label {
+  font-size: 18px;
+  margin: 10px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #4CAF50;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+canvas {
+  border: 2px solid #4CAF50;
+  background-color: #ffffff;
+  margin: 0px 0;
+  display: block; /* Ensure the canvas is treated as a block element */
+  margin-left: auto; /* Center align horizontally */
+  margin-right: auto; /* Center align horizontally */
+}
+
+h2 {
+  color: #4CAF50;
+  margin: 10px 0; /* Reduce margin to bring it closer */
+  font-size: 24px; /* Optional: Increase font size for better visibility */
+}
+
+
